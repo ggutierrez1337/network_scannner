@@ -79,5 +79,9 @@ In this part of the code, it will be used to extract information from the respon
 - **cidr= input(’Enter network IP Address: ‘) -** Prompts the user to input a CIDR network address
 - **main(cidr) -** Calls the main functions with the provided CIDR address
 
+# Output
+![Screenshot 2025-04-12 121815](https://github.com/user-attachments/assets/b9a2d8c7-f1f9-4e63-87f6-bd86ec83f682)
+
+
 # Code
 ![Screenshot (1416)](https://github.com/user-attachments/assets/f711309a-c138-4000-aac6-caec196638bb)
