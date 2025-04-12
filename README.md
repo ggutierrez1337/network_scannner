@@ -78,3 +78,6 @@ In this part of the code, it will be used to extract information from the respon
 - **if __name__ = ‘__main__’** - Ensures that the code block only runs if the script is executed directly
 - **cidr= input(’Enter network IP Address: ‘) -** Prompts the user to input a CIDR network address
 - **main(cidr) -** Calls the main functions with the provided CIDR address
+
+# Code
+![Screenshot (1416)](https://github.com/user-attachments/assets/f711309a-c138-4000-aac6-caec196638bb)
