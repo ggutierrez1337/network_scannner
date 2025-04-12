@@ -13,7 +13,7 @@ Through the use of Python, a Network Scanning tool has been created, and by util
 - **import ipaddress** - Modules used to allow IPv4 manipulation and inspection
 
 # Documentation
-# Creating an ARP Request
+## Creating an ARP Request
 
 In order to create an **ARP Request,** Scapy must be installed which is a **packet manipulation tool**
 
@@ -27,7 +27,7 @@ In order to create an **ARP Request,** Scapy must be installed which is a **pack
     - **packet** - A combination of the ARP Request and the MAC Address to create a complete packet
     - **answer** - scapy.srp will send the packet and wait for a response. In this case the response wait time is 1 second
 
-# Extracting Info From the Answer
+## Extracting Info From the Answer
 
 In this part of the code, it will be used to extract information from the response of the designated IP Address such as: IP, MAC Address, Host Name with the use of a **list** in order to **store** information of the target
 
@@ -50,7 +50,7 @@ In this part of the code, it will be used to extract information from the respon
 - **for client in result** - Iterates over the clients[ ] list in order to print target information
     - **print(client[’IP’] + ‘\t\t’ +client[’MAC’ + ‘\t\t’ + client[Hostname’])** - Prints the IP, MAC Address, and Host name of each client
 
-# Using Threading to Speed Up Scans
+## Using Threading to Speed Up Scans
 
 ![image 6](https://github.com/user-attachments/assets/0cedaf20-10b1-4f56-9ba6-f2dff9e8b59a)
 
@@ -71,7 +71,7 @@ In this part of the code, it will be used to extract information from the respon
     - **all_clients.extend(result_queue.get( ))** - Retrieves and extends the list of clients with results from the queue
 - **print_result(all_clients)** - Calls the function to print the final list of clients
 
-# Main Function
+## Main Function
 
 ![image 8](https://github.com/user-attachments/assets/eb59fc0c-4796-46cc-aadb-558cc1f35924)
 
